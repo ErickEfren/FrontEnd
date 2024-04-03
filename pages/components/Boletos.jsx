@@ -32,7 +32,7 @@ export default function Boleto() {
 
   return (
     <>
-      <div className="px-20 py-12 bg-yellow-400 rounded-b-lg max-md:px-5">
+      <div className="px-20 py-12 bg-yellow-400 rounded-[30px] max-md:px-5">
         <Grid rows="1" columns="7">
           <Box align="center">
             <div className="flex flex-col my-auto">

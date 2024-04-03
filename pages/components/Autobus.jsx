@@ -7,51 +7,129 @@ export default function Autobus() {
       <div className="self-center text-5xl text-black max-md:text-4xl">
         Autobus
       </div>
-      <Grid rows="11" columns="5">
-        <Box gridColumnStart="1"gridColumnEnd="6"></Box>
-        <Box gridColumnStart="1"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="2"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="4"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="5"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="1"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="2"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="4"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="5"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="1"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="2"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="4"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="5"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="1"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="2"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="4"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="5"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="1"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="2"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="4"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="5"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="1"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="2"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="4"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="5"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="1"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="2"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="4"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="5"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="1"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="2"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="4"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="5"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="1"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="2"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="4"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="5"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="1"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="2"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="4"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
-        <Box gridColumnStart="5"><button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" /></Box>
+      <br />
+      <Grid rows="5" columns="11" width="auto">
+        <Box gridRowStart="1">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="2">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="4">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="5">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="1">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="2">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="4">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="5">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="1">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="2">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="4">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="5">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="1">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="2">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="4">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="5">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="1">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="2">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="4">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="5">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="1">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="2">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="4">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="5">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="1">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="2">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="4">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="5">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="1">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="2">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="4">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="5">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="1">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="2">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="4">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="5">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="1">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="2">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="4">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
+        <Box gridRowStart="5">
+          <button className="shrink-0 w-[40px] bg-yellow-400 rounded-xl h-[40px]" />
+        </Box>
       </Grid>
-     </div>
+    </div>
   );
 }
-
-
