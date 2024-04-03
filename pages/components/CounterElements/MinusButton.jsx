@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function MinusButton({ onClick }) {
     return (
       <button

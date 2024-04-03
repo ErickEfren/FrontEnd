@@ -1,19 +1,23 @@
 import { useRouter } from 'next/router';
 import React from 'react';
+import Persona from './Personas';
+import { useState } from 'react';
 
 export default function Transporte() {
-    const router = useRouter();
+  const router = useRouter();
 
-    const Persona = () => {
-        router.push("./components/Personas")
-    }
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const toggleModal = () => {
+        setModalOpen(!modalOpen);
+  };
   const VerMas = () => {
       router.push("./PagTransportes")
   }
 
 
     return (
-      <form className="px-6 pt-14 pb-4 mt-11 w-full bg-yellow-400 rounded-3xl border border-black border-solid max-w-[1120px] max-md:pl-5 max-md:mt-10 max-md:max-w-full">
+      <div className="px-6 pt-14 pb-4 mt-11 w-full bg-yellow-400 rounded-3xl border border-black border-solid max-w-[1120px] max-md:pl-5 max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
             <label htmlFor="origin" className="self-center text-3xl text-black whitespace-nowrap max-md:mt-10">
@@ -50,17 +54,18 @@ export default function Transporte() {
               Pasajeros
             </label>
             <div className="flex flex-col justify-center mt-5 border border-black border-solid rounded-[100px]">
-              <button type="button" onClick={Persona} className="justify-center py-2.5 pr-16 pl-16 bg-white border border-black border-solid rounded-[100px] max-md:pr-5 max-md:pl-6">
+              <button type="button" onClick={toggleModal} className="justify-center py-2.5 pr-16 pl-16 bg-white border border-black border-solid rounded-[100px] max-md:pr-5 max-md:pl-6">
                 ¿Cuántos Van?
               </button>
             </div>
             <div className="flex flex-col justify-center mt-5 border border-black border-solid rounded-[100px]">
               <button type="button" onClick={VerMas} className="justify-center py-2.5 pr-16 pl-16 bg-white border border-black border-solid rounded-[100px] max-md:pr-5 max-md:pl-6">
-                Button
+                Buscar
               </button>
             </div>
           </div>
         </div>
-      </form>
+        {modalOpen && <Persona closeModal={toggleModal} />}
+      </div>
     );
   }

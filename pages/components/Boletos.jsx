@@ -84,7 +84,6 @@ export default function Boleto() {
               <div className="text-center">COSTO</div>
               <div className="mt-11 text-center max-md:mt-12">COSTO</div>
               <div className="mt-12 text-center max-md:mt-12">COSTO</div>
-              
               </div>
               </div>
             </Box>
