@@ -23,7 +23,7 @@ export default function ElementoTrans() {
             <Box align="center">Precio</Box> 
             <Box align="center">Cupos</Box> 
             <Box align="center"><button onClick={VerMas}>
-                <button className="justify-center py-2.5 pr-16 pl-16 bg-orange-100 border-0 border-black border-solid rounded-[100px] max-md:pr-5 max-md:pl-6">
+            <button className="justify-center py-2.5 pr-16 pl-16 bg-orange-100 border-0 border-black border-solid rounded-[100px] max-md:pr-5 max-md:pl-6">
                     Ver Más
                 </button>
             </button></Box> 
