@@ -66,8 +66,8 @@ export default function Persona() {
   };
 
   return (
-    
-    <div className="flex gap-5 justify-between pt-14 text-center">
+    <form className="flex flex-col px-16 pt-5 pb-8 text-3xl text-black whitespace-nowrap bg-orange-100 rounded-3xl max-w-[487px] max-md:px-5">
+      <div className="flex gap-5 justify-between pt-14 text-center">
         <div className="flex flex-col my-auto">
           <div>Completo</div>
           <div className="mt-9">INAPAM</div>
@@ -86,6 +86,7 @@ export default function Persona() {
             count={counts.inapam}
             onMinus={() => handleMinus("inapam")}
             onPlus={() => handlePlus("inapam")}
+            
           />
           <Counter
             label="Medio"
@@ -101,6 +102,7 @@ export default function Persona() {
           />
         </div>
       </div>
-    <Continuar />
+      <Continuar />
+    </form>
   );
 }
