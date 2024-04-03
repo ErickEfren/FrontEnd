@@ -34,7 +34,7 @@ const createSession = async (req, res) => {
       ],
       mode: "payment",
       success_url: "http://localhost:3000/Confirmacion",
-      cancel_url: "http://localhost:3000/cancel",
+      cancel_url: "http://localhost:3000/Cancel",
     });
     res.status(200).json(session);
   } catch (err) {
