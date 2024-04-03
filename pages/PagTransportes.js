@@ -1,21 +1,17 @@
-import ElementoTransporte from "./components/ElementoTrans";
-import TabNavIndex from "./components/TabNavIndex";
-import { Grid, Box} from "@radix-ui/themes";
+import * as React from "react";
+import ElementoTrans from "./components/ElementoTrans";
+import { Box, Grid } from "@radix-ui/themes";
 
-export default function PagNosotros() {
+export default function Page() {
   return (
     <>
-    <TabNavIndex active="Transporte" />
-    <Grid columns="1" rows="7">
-        <Box><ElementoTransporte /></Box>
-        <Box></Box>
-        <Box><ElementoTransporte /></Box>
-        <Box></Box>
-        <Box><ElementoTransporte /></Box>
-        <Box></Box>
-        <Box><ElementoTransporte /></Box>
-
-    </Grid>
+      <Grid rows="5">
+      <Box><ElementoTrans/></Box>
+      <Box></Box>
+      <Box><ElementoTrans /></Box>
+      <Box></Box>
+      <Box><ElementoTrans /></Box>
+      </Grid>
     </>
-  )
+  );
 }

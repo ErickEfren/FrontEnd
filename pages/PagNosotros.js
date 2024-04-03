@@ -1,4 +1,4 @@
-import TabNavIndex from "./components/TabNavIndex";
+import TabNavIndex from "./components/Header";
 import Nosotros from "./components/Nosotros";
 
 export default function PagNosotros() {
