@@ -19,7 +19,7 @@ export default function ElementoTrans() {
             <Box align="center">Destino</Box> 
             <Box align="center">Escala o Directo</Box> 
             <Box align="center">Hora de Salida</Box> 
-            <Box align="center">Hora de Hora de Llegada</Box> 
+            <Box align="center">Hora de Llegada</Box> 
             <Box align="center">Empresa</Box> 
             <Box align="center">Precio</Box> 
             <Box align="center">Cupos</Box> 

@@ -1,10 +1,10 @@
-import TabNavIndex from "./components/Header";
+import Header from "./components/Header";
 import Nosotros from "./components/Nosotros";
 
 export default function PagNosotros() {
   return (
     <>
-    <TabNavIndex active="Contacto" />
+    <Header />
     <Nosotros />
     </>
   )
