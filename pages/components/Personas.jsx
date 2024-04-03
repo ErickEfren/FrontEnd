@@ -73,7 +73,6 @@ export default function Persona() {
           />
           </Box>
           </Grid>
-          <Grid><Box align="center"><Continuar /></Box></Grid>
     </div>
   )
 }

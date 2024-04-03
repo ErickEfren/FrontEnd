@@ -7,7 +7,6 @@ export default function PagTransporte() {
   return (
     <>
       <Header />
-
       Resultados Disponibles
       <Grid rows="5">
       <Box><ElementoTrans/></Box>
