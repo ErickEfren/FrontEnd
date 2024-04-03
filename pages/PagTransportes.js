@@ -10,9 +10,7 @@ export default function PagTransporte() {
       <Grid rows="3"><Box/><Box align="center"><Text size="6">Resultados Disponibles</Text></Box><Box/></Grid>
       <Grid rows="5">
       <Box><ElementoTrans/></Box>
-      <Box></Box>
       <Box><ElementoTrans /></Box>
-      <Box></Box>
       <Box><ElementoTrans /></Box>
       </Grid>
     </div>

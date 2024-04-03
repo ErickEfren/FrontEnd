@@ -1,7 +1,15 @@
 import * as React from "react";
 import Header from "./components/Header";
+import { useRouter } from "next/router";
 
 export default function MyComponent() {
+  
+  const router = useRouter();
+
+  const Llenar = () =>{
+    router.push("./Llenado")
+  }
+
   return (
     <>
     <Header />
@@ -23,11 +31,11 @@ export default function MyComponent() {
             Se le envió un mensaje a su correo registrado con la confirmación
             del pago
           </div>
-          <div className="flex flex-col justify-center self-center mt-12 max-w-full bg-orange-100 rounded-[100px] w-[313px] max-md:mt-10">
+          <button onClick={Llenar} className="flex flex-col justify-center self-center mt-12 max-w-full bg-orange-100 rounded-[100px] w-[313px] max-md:mt-10">
             <div className="justify-center items-end px-16 py-2.5 bg-orange-100 border-0 border-black border-solid rounded-[100px] max-md:pl-5">
               Llenar Boletos
             </div>
-          </div>
+          </button>
         </div>
       </div>
     </div>
