@@ -2,7 +2,7 @@ import * as React from "react";
 
 export default function Info() {
   return (
-    <div className="px-20 py-12 bg-orange-100 rounded-[30px] max-md:px-5">
+    <div className="px-20 py-12 bg-yellow-400 rounded-t-lg  max-md:px-5">
       <div className="flex gap-5 max-md:flex-col max-md:gap-0">
         <div className="flex flex-col w-[83%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow text-3xl text-black max-md:mt-10 max-md:max-w-full">

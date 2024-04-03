@@ -3,9 +3,9 @@ import Nosotros from "./components/Nosotros";
 
 export default function PagNosotros() {
   return (
-    <>
-    <TabNavIndex active="Nosotros" />
-    <Nosotros />
-    </>
-  )
+    <div className="flex flex-col items-center pb-14 bg-orange-100">
+      <TabNavIndex active="Nosotros" />
+      <Nosotros />
+    </div>
+  );
 }
