@@ -2,7 +2,7 @@ import * as React from "react";
 import ElementoTrans from "./components/ElementoTrans";
 import { Box, Grid } from "@radix-ui/themes";
 
-export default function Page() {
+export default function PagTransporte() {
   return (
     <>
       <Grid rows="5">

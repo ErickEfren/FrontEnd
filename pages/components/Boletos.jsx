@@ -1,40 +1,7 @@
 import { Grid, Box } from "@radix-ui/themes";
 import * as React from "react";
-
-function MinusButton({ onClick }) {
-    return (
-      <button
-        className="flex justify-center items-center px-5 bg-yellow-400 rounded-full h-[50px] w-[50px] max-md:px-5"
-        onClick={onClick}
-      >
-        -
-      </button>
-    );
-  }
-  
-  function PlusButton({ onClick }) {
-    return (
-      <button
-        className="flex justify-center items-center px-5 bg-yellow-400 rounded-full h-[50px] w-[50px]"
-        onClick={onClick}
-      >
-        +
-      </button>
-    );
-  }
-  
-  function Counter({ label, count, onMinus, onPlus }) {
-    return (
-      <div className="flex gap-5 justify-between mt-4">
-        <MinusButton onClick={onMinus} />
-        <div className="my-auto">{count}</div>
-        <PlusButton onClick={onPlus} />
-      </div>
-    );
-  }
-    
-    
-
+import Counter from "./CounterElements/Counter";
+      
 export default function Boleto() {
     const [counts, setCounts] = React.useState({
         completo: 0,
@@ -123,7 +90,7 @@ export default function Boleto() {
             </Box>
             <Box gridColumnStart="5" gridColumnEnd="8">
               <div className="flex flex-col justify-center self-stretch mt-20 bg-orange-100 border border-black border-solid rounded-[100px] max-md:mt-10">
-              <button className="justify-center py-5 pr-5 pl-3 bg-yellow-400 border-5 border-black border-solid rounded-[50px] max-md:pr- max-md:pl-0">
+              <button onClick={null} className="justify-center py-5 pr-5 pl-3 bg-yellow-400 border-5 border-black border-solid rounded-[50px] max-md:pr- max-md:pl-0">
                   Comprar
               </button>
               </div>

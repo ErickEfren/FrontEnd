@@ -7,9 +7,10 @@ export default function Transporte() {
     const Persona = () => {
         router.push("./components/Personas")
     }
-    const Transportes = () => {
-        router.push("./PagTransportes")
-    }
+  const VerMas = () => {
+      router.push("./PagTransportes")
+  }
+
 
     return (
       <form className="px-6 pt-14 pb-4 mt-11 w-full bg-yellow-400 rounded-3xl border border-black border-solid max-w-[1120px] max-md:pl-5 max-md:mt-10 max-md:max-w-full">
@@ -53,15 +54,11 @@ export default function Transporte() {
                 ¿Cuántos Van?
               </button>
             </div>
-            <button onClick={Transportes} className="flex gap-5 justify-between items-center mt-10 pr-5 pl-10 bg-white border border-black border-solid rounded-[100px] max-md:pl-5">
-              <span className="self-stretch my-auto">Buscar</span>
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/35e47b38b42bdd77a4208e84dc2685a6e46b1d2158db3d0555749c92ca267c99?apiKey=b543ac7ff67748148da449abd9cad6af&"
-                alt="Submit Icon"
-                className="shrink-0 self-stretch my-auto aspect-[1.02] w-[45px]"
-              />
-            </button>
+            <div className="flex flex-col justify-center mt-5 border border-black border-solid rounded-[100px]">
+              <button type="button" onClick={VerMas} className="justify-center py-2.5 pr-16 pl-16 bg-white border border-black border-solid rounded-[100px] max-md:pr-5 max-md:pl-6">
+                Button
+              </button>
+            </div>
           </div>
         </div>
       </form>
